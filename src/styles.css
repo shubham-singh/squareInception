@@ -52,3 +52,18 @@ input, button {
 button {
   border-radius: 1rem;
 }
+
+@media screen and (max-width: 769px) {
+  .App {
+    flex-direction: column-reverse;
+  }
+
+  .Squares {
+    max-width: 100%;
+  }
+
+  .Form {
+    height: 25%;
+    width: 100%;
+  }
+}
