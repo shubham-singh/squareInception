@@ -7,7 +7,7 @@ export default function Square({
     stepSize: number;
     relativeSquareGap: number;
   }) {
-    console.log(width, stepSize, relativeSquareGap);
+
     if (width < 0) {
       return null;
     }
